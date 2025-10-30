@@ -1,0 +1,204 @@
+/* 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=submit]{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 10px 20px;
+    cursor: pointer;
+} */
+/* html, body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-image: url("./Image/background.jpg");
+
+    background-size: cover;       
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#clock{
+    font-size: 6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid white;
+    background-color: rgba(202, 199, 199, 0.568);
+    padding: 20px 15px;
+    border-radius: 20px;
+} */
+/* 
+html, body{
+    height: 100;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: hwb(0 84% 16%);
+}
+#myh1{
+    font-size: 4rem;
+    font-family:'Courier New', Courier, monospace;
+    color: #323131;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 40px;
+    padding: 20px 25px;
+    background-color: white;
+}
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(71, 70, 70);
+    text-shadow: 3px 5px 2px hsl(0, 1%, 16%);
+    margin-bottom: 25px;
+}
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 6px;
+    min-width: 125px;
+    border: none;
+    cursor:  pointer;
+    color: white;
+}
+#start{
+    background-color: rgba(15, 132, 132, 0.968);
+}
+#start:hover{
+    background-color: rgba(10, 80, 80, 0.968) ;
+}
+#stop{
+    background-color: hsl(240, 31%, 45%);
+}
+#stop:hover{
+    background-color: hsl(0, 15%, 17%);
+}
+#reset{
+    background-color: rgb(150, 150, 54);
+}
+#reset:hover{
+    background-color: rgb(68, 68, 25);
+} */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    background-color: rgba(100, 99, 99, 0.644)
+}
+@font-face{
+    font-family: 'DS-Digit';
+    src: url('./DS-DIGIT.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+#calculator{
+    font-family: 'DS-Digit',Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 1%, 24%);
+    border-radius: 25px;
+    box-shadow: 25px 30px 50px black,
+                -10px -10px 20px rgb(104, 104, 104);
+    overflow: hidden;
+    border: 12px solid rgb(52, 51, 51);           
+    
+}
+#display{
+    font-family: 'DS-Digit', Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    height: 100px;
+    font-size: 3.5rem;
+    text-align: left;
+    border: 5px solid rgb(37, 32, 32);
+    border-radius: 25px;
+    background-color: rgb(66, 64, 64);
+    color: rgb(228, 224, 224);
+}
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 40px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: rgb(65, 58, 58);
+    border: 7px solid rgb(37, 32, 32);
+    color: rgb(229, 229, 229);
+    padding-bottom: 0px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(37, 32, 32);
+    color: rgb(241, 241, 241)
+}
+#operator{
+    background-color: rgb(229, 126, 26);
+    border: 7px solid rgb(153, 76, 0);
+    color: white;
+}
+#operator:hover{
+    background-color: rgb(153, 76, 0);
+    color: rgb(255, 255, 255);
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 9px;
+    margin-top: 20px;
+    padding: 25px;
+}
