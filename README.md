@@ -37,7 +37,7 @@
 ## 🖼️ Preview
 
 <p align="center">
-  <img src="screenshot.png" width="400" alt="Calculator Preview">
+  <img src="https://github.com/Lamberto673/Calculator/blob/main/da5cbbe2-b574-4e1f-b587-f3a1c3f92dd9.jpeg" width="400" alt="Calculator Preview">
 </p>
 
 ---
